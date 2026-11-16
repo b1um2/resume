@@ -57,4 +57,4 @@ Selected from the competition field for **AyADVI**, an AI academic-advising agen
 **Languages:** C, C++, Java, Python, JavaScript, SQL; exposure to R and MIPS Assembly
 **ML / AI:** PyTorch, NumPy, semi-supervised learning, graph neural networks, LLM agent orchestration, MCP, model routing, guardrails
 **Web:** Node.js, Express, HTML/CSS, JavaScript, Canvas
-**Tools:** Git, GitHub, Linux, SQLite
+**Tools:** Git, GitHub, Linux, SQLite, Cloudflare, Oracle Cloud
