@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elliott Younan — Resume</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --muted: #555;
+    --rule: #d8d8d8;
+    --accent: #1f4e79;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    margin: 0;
+    padding: 40px 20px;
+    background: #f0f0f0;
+    color: var(--ink);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    line-height: 1.4;
+  }
+  .page {
+    max-width: 8.5in;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0.6in 0.7in;
+    box-shadow: 0 2px 12px rgba(0,0,0,.12);
+  }
+  header { text-align: center; margin-bottom: 14px; }
+  h1 {
+    margin: 0 0 4px;
+    font-size: 24pt;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  .contact { font-size: 10pt; color: var(--muted); }
+  .contact span { margin: 0 5px; }
+  .contact a { color: var(--muted); text-decoration: none; }
+  h2 {
+    font-size: 10.5pt;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 3px;
+    margin: 18px 0 8px;
+  }
+  p { margin: 0 0 6px; }
+  ul { margin: 4px 0 0; padding-left: 18px; }
+  li { margin-bottom: 3px; }
+  .entry { margin-bottom: 10px; }
+  .entry:last-child { margin-bottom: 0; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+  .row strong { font-size: 11.5pt; }
+  .meta { color: var(--muted); font-size: 9.5pt; white-space: nowrap; }
+  .sub { font-size: 10pt; color: var(--muted); font-style: italic; margin: 1px 0 4px; }
+  .sub a, .links a { color: var(--accent); text-decoration: none; }
+  .skills p { margin-bottom: 4px; }
+  .skills b { display: inline-block; min-width: 92px; }
+  .award strong { color: var(--ink); }
+  @media print {
+    @page { size: letter; margin: 0; }
+    body { background: #fff; padding: 0; font-size: 9.5pt; line-height: 1.3; }
+    .page { box-shadow: none; max-width: none; padding: 0.32in 0.48in; }
+    header { margin-bottom: 8px; }
+    h1 { font-size: 19pt; margin-bottom: 3px; }
+    .contact { font-size: 8.5pt; }
+    h2 { font-size: 9pt; margin: 9px 0 4px; padding-bottom: 2px; }
+    p { margin-bottom: 4px; }
+    ul { margin-top: 2px; padding-left: 15px; }
+    li { margin-bottom: 1px; }
+    .entry { margin-bottom: 6px; }
+    .row strong { font-size: 10.2pt; }
+    .meta { font-size: 8.5pt; }
+    .sub { font-size: 8.8pt; margin: 0 0 2px; }
+    .skills p { margin-bottom: 2px; }
+    .skills b { min-width: 80px; }
+    a { color: var(--ink) !important; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <header>
+    <h1>ELLIOTT YOUNAN</h1>
+    <div class="contact">
+      Lebanon <span>·</span> elliottyounan@gmail.com <span>·</span> +961 81 703 055<br>
+      <a href="https://portfolio.b1um2.dev">portfolio.b1um2.dev</a> <span>·</span>
+      <a href="https://github.com/b1um2">github.com/b1um2</a> <span>·</span>
+      <a href="https://codeberg.org/b1um2">codeberg.org/b1um2</a>
+    </div>
+  </header>
+
+  <h2>Summary</h2>
+  <p>Computer science student specializing in machine learning and software development. I build full-stack web applications and LLM-agent systems, and work with faculty on academic research in semi-supervised learning. Top-10 finalist at a national hackathon for AyADVI, an AI academic-advising agent I gave a talk about to an audience of 100+.</p>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="row">
+      <strong>B.Sc. Computer Science</strong>
+      <span class="meta">In progress</span>
+    </div>
+    <div class="sub">Lebanese American University (LAU), Lebanon</div>
+    <p>Focus: machine learning and software development.</p>
+  </div>
+
+  <h2>Awards</h2>
+  <div class="entry award">
+    <div class="row">
+      <strong>Top 10 Finalist — Alphahack Hackathon</strong>
+      <span class="meta">Nov 2026</span>
+    </div>
+    <p>Selected from the competition field for <strong>AyADVI</strong>, an AI academic-advising agent. Gave a talk about the project on stage to 100+ attendees.</p>
+  </div>
+
+  <h2>Research</h2>
+  <div class="entry">
+    <div class="row">
+      <strong>Undergraduate Researcher — SGRFME</strong>
+      <span class="meta">2026 – Present</span>
+    </div>
+    <div class="sub">Lebanese American University (LAU) · Research in progress, builds on Flexible Manifold Embedding; details withheld until publication</div>
+    <ul>
+      <li>Contribute to an in-progress faculty research project, from problem framing through experimentation and review.</li>
+      <li>Gained hands-on exposure to supervised and semi-supervised learning, data cleaning and preparation, clustering, and model evaluation.</li>
+      <li>Follow a rigorous, reproducible research process with method comparison and iteration.</li>
+      <li>Will be a named author on the resulting publication; specific methods and findings remain confidential until then.</li>
+    </ul>
+  </div>
+
+  <h2>Projects</h2>
+
+  <div class="entry">
+    <div class="row">
+      <strong>AyADVI — AI Academic Advising Agent</strong>
+      <span class="meta">2026 · WIP</span>
+    </div>
+    <div class="sub">Python, LLM APIs, MCP, SQLite · <a href="https://github.com/b1um2/AyADVI">github.com/b1um2/AyADVI</a></div>
+    <ul>
+      <li>Built a multi-agent advising assistant embedded in a student portal, splitting work across form, meeting, FAQ, and safety helpers with cost-appropriate model routing.</li>
+      <li>Connected helpers to the portal through an MCP server, and added an advisor orchestrator that reviews pending forms and meeting requests every 20 minutes, skipping model calls when the queue is empty.</li>
+      <li>Designed a human-in-the-loop review dashboard, model guardrails, and a per-advisor knowledge graph rebuilt on a daily schedule; nothing is applied without advisor approval.</li>
+      <li>Gave a talk about the project on stage to 100+ people; placed in the top 10 at Alphahack.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row">
+      <strong>flaker — Web Floor-Map Drawing App</strong>
+      <span class="meta">2025 – 2026</span>
+    </div>
+    <div class="sub">JavaScript, Node.js, Express, HTML Canvas · <a href="https://github.com/b1um2/flaker">github.com/b1um2/flaker</a></div>
+    <ul>
+      <li>Built a canvas-based floor-plan editor with a vertex/edge model, layered drawing, a live preview layer, and a configurable keyboard-shortcut system.</li>
+      <li>Implemented spatial hash grids for vertices and edges to keep hit-testing and lookups fast as floor plans grow in size.</li>
+      <li>Developed the Express server and the vanilla JavaScript frontend without a framework, keeping the app lightweight and dependency-free on the client.</li>
+    </ul>
+  </div>
+
+  <div class="entry">
+    <div class="row">
+      <strong>descare — Peer-to-Peer Chat App</strong>
+      <span class="meta">2026 · WIP</span>
+    </div>
+    <div class="sub">JavaScript, Node.js, Express · <a href="https://github.com/b1um2/descare">github.com/b1um2/descare</a></div>
+    <ul>
+      <li>Designing a chat application that is purely peer-to-peer, with no central store of message history.</li>
+      <li>Built the conversation, chat, and friends interfaces plus the Express application shell; currently implementing direct peer message delivery.</li>
+    </ul>
+  </div>
+
+  <h2>Skills</h2>
+  <div class="skills">
+    <p><b>Languages</b> C, C++, Java, Python, JavaScript, SQL; exposure to R and MIPS Assembly</p>
+    <p><b>ML / AI</b> PyTorch, NumPy, semi-supervised learning, graph neural networks, LLM agent orchestration, MCP, model routing, guardrails</p>
+    <p><b>Web</b> Node.js, Express, HTML/CSS, JavaScript, Canvas</p>
+    <p><b>Tools</b> Git, GitHub, Linux, SQLite</p>
+  </div>
+
+</main>
+</body>
+</html>
